@@ -1,0 +1,16 @@
+{
+  "name": "data-crawling-project",
+  "version": "1.0.0",
+  "description": "Project to crawl and store high school exam scores from various provinces in Vietnam.",
+  "main": "crawl.js",
+  "scripts": {
+    "start": "node crawl.js"
+  },
+  "dependencies": {
+    "await-delay": "^1.0.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "xlsx": "^0.17.0"
+  }
+}
